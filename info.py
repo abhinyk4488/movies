@@ -15,17 +15,17 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25576719'))
 API_HASH = environ.get('API_HASH', 'cecb3ae504b6dd120115662bc839d16c')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7024552285:AAHfZAdRSnBSl70nkRYBCyL_init_vGn6Fo')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7572782105:AAFn7gzOfazXubOUcZqi6H8TXIEbpxUBMuc')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7142188712').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/KA15Supporter") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002341979789'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+inGKtwX6-NRhNjdl')
+USERNAME = environ.get('USERNAME', "https://t.me/Abhinaik4488") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002324443585'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Ka15movies')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002408250203').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://harishnaik4488:harishnaik4488@abhinaik.nbyf2.mongodb.net/?retryWrites=true&w=majority&appName=Abhinaik")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://davaxef785:UFb04tcOXzHLSqNJ@cluster0.mdsaj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Abhinaik")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
@@ -35,7 +35,7 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', '')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002305194643')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '0')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
